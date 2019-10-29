@@ -36,6 +36,13 @@ class LoginViewController: UIViewController {
         }else{
             print("Invalid UserName and Password")
         }
+        
+       let sb = UIStoryboard(name: "Main", bundle: nil)
+       let homeVC = sb.instantiateViewController(withIdentifier: "homeVC")
+       as! HomeViewController
+        homeVc.name = userName
+       // self.present(homeVC, animated: true, completion: nil)
+       navigationController?.pushViewController(homeVC, animated: true)
     }
 }
 

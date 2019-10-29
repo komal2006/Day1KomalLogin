@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B5108372367B281009F72BD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5108362367B281009F72BD /* SignUpViewController.swift */; };
+		9B51083B2367BEE4009F72BD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51083A2367BEE4009F72BD /* HomeViewController.swift */; };
 		9BAC16672364F97600CC9451 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC16662364F97600CC9451 /* AppDelegate.swift */; };
 		9BAC16692364F97600CC9451 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC16682364F97600CC9451 /* LoginViewController.swift */; };
 		9BAC166C2364F97600CC9451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BAC166A2364F97600CC9451 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B5108362367B281009F72BD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		9B51083A2367BEE4009F72BD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9BAC16632364F97600CC9451 /* Day1KomalLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day1KomalLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAC16662364F97600CC9451 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BAC16682364F97600CC9451 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				9BAC166D2364F97800CC9451 /* Assets.xcassets */,
 				9BAC166F2364F97800CC9451 /* LaunchScreen.storyboard */,
 				9BAC16722364F97800CC9451 /* Info.plist */,
+				9B5108362367B281009F72BD /* SignUpViewController.swift */,
+				9B51083A2367BEE4009F72BD /* HomeViewController.swift */,
 			);
 			path = Day1KomalLogin;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B5108372367B281009F72BD /* SignUpViewController.swift in Sources */,
 				9BAC16692364F97600CC9451 /* LoginViewController.swift in Sources */,
 				9BAC16672364F97600CC9451 /* AppDelegate.swift in Sources */,
+				9B51083B2367BEE4009F72BD /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
